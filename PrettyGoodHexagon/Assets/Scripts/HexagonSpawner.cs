@@ -6,7 +6,7 @@ public class HexagonSpawner : MonoBehaviour {
 
 	public GameObject hexagon;
 
-	public float spawnRate = 1f;
+	public float spawnRate = 1.5f;
 
 	private float nextTimeToSpawn=0f;
 	// Use this for initialization

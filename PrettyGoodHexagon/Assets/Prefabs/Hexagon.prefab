@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 50922197453384280}
-  shrinkSpeed: 3
+  shrinkSpeed: 2
 --- !u!120 &120730670350550224
 LineRenderer:
   m_ObjectHideFlags: 1

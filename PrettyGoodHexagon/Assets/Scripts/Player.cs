@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.CrossPlatformInput;
 public class Player : MonoBehaviour {
 
 
-	public float moveSpeed = 600f;
+	public float moveSpeed = 400f;
 
 	float movement =0f;
 
 	// Use this for initialization
 	void Start () {
-		
+		 Screen.sleepTimeout = SleepTimeout.NeverSleep;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		movement = Input.GetAxisRaw("Horizontal");	
+		movement = CrossPlatformInputManager.GetAxis("Horizontal");	
 	}
 
 	/// <summary>
